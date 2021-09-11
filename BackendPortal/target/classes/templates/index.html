@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+<div style="text-align: center;">
+    <br>
+    <form class="myForm" method="get"  action="/categoryShow">
+        <p>
+            <label>Username  <input type="text" name="user_email" > </label>
+            <br> <br>
+            <label>Password <input type="password" name="user_pwd" > </label>
+            <br> <br>
+            <input type="submit" value="Login">
+        </p>
+        <p><i><a href="http://localhost:8080/forgot">Forgot Password</a>  <a href="http://localhost:8080/change">Change Password</a></i></p>
+    </form>
+</div>
+</body>
+</html>
